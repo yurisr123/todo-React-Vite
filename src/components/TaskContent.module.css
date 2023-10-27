@@ -1,0 +1,49 @@
+.divTask {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--gray-500);
+  padding: 1rem 1rem;
+  border-radius: 0.8rem;
+  align-items: center;
+  transition: border 0.3s;
+  margin-bottom: 1rem;
+}
+
+/* .contentTask {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+ 
+} */
+
+.divTask:hover {
+  border: 1px solid var(--gray-100);
+}
+
+.taskUnchecked {
+  color: var(--gray-100);
+  margin-left: 0.5rem;
+}
+
+.taskChecked {
+  color: var(--gray-300);
+  margin-left: 0.5rem;
+  text-decoration: line-through;
+}
+
+.button {
+  color: var(--danger);
+  background-color: transparent;
+
+  padding: 0;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.content{
+    width: 100%;
+}

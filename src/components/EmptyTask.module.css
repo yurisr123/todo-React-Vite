@@ -1,0 +1,33 @@
+.main {
+  width: 46rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0rem auto;
+}
+
+.divMain {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.icon {
+  color: var(--gray-300);
+  margin-bottom: 1rem;
+}
+
+.content {
+  margin: 4rem 0;
+  line-height: 140%;
+}
+
+.p1 {
+  color: var(--gray-300);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.p2 {
+  color: var(--gray-300);
+  font-size: 1rem;
+  font-weight: 400;
+}
